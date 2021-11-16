@@ -1,4 +1,4 @@
-import {data} from './data.js'
+import { data } from './data.js'
 
 const form = document.getElementById('form')
 const search = document.getElementById('search')
@@ -7,9 +7,10 @@ const main = document.getElementById('main')
 showMovies(data)
 
 function showMovies(hero) {
+    console.log(hero);
     main.innerHTML = ''
     hero.forEach((hero) => {
-        
+
         const movieEl = document.createElement('div')
         movieEl.classList.add('movie')
 
