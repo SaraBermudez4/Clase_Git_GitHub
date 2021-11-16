@@ -116,9 +116,21 @@ margin-top: 0;
 }
 
 
-
-
-
+.titleApp{
+    color: #fff;
+    text-align: center;
+}
+ footer{
+     display: flex;
+     flex-direction:column;
+     justify-content: center;
+     align-items: center;
+     background-color: #7378c5;
+ }
+ footer p{
+     color: #fff;
+     margin: 5px;
+ }
 
 
 
