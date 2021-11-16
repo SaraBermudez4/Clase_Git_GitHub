@@ -120,6 +120,11 @@ footer {
     background-color: var(--secundary-color);
 }
 
+.titleApp {
+    color: #fff;
+    text-align: center;
+}
+
 footer p {
     color: #fff;
     margin: 5px;
